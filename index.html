@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>네온 인터페이스</title>
+<title>KillerServer</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Pretendard:wght@300;400;600&display=swap" rel="stylesheet">
 
@@ -11,7 +11,7 @@
 
 :root{
 --배경:#020617;
---네온:#00f7ff;
+--네온:#ff003c;
 --네온2:#7c3aed;
 --텍스트:#e2e8f0;
 }
@@ -30,7 +30,7 @@ height:100vh;
 overflow-x:hidden;
 }
 
-/* 네온 배경 효과 */
+/* 네온 배경 */
 
 body::before{
 content:"";
@@ -58,7 +58,7 @@ opacity:0.2;
 z-index:-1;
 }
 
-/* 상단 메뉴 */
+/* 메뉴 */
 
 nav{
 display:flex;
@@ -104,7 +104,7 @@ nav a:hover::after{
 width:100%;
 }
 
-/* 메인 화면 */
+/* 메인 */
 
 .hero{
 height:85vh;
@@ -122,7 +122,7 @@ font-family:"Orbitron";
 background:linear-gradient(90deg,var(--네온),var(--네온2));
 -webkit-background-clip:text;
 color:transparent;
-text-shadow:0 0 25px rgba(0,247,255,0.3);
+text-shadow:0 0 25px rgba(255,0,60,0.3);
 }
 
 .hero p{
@@ -131,7 +131,7 @@ font-size:18px;
 opacity:0.7;
 }
 
-/* 네온 버튼 */
+/* 버튼 */
 
 .btn{
 margin-top:35px;
@@ -154,7 +154,7 @@ box-shadow:
 0 0 40px var(--네온);
 }
 
-/* 카드 섹션 */
+/* 카드 */
 
 .section{
 padding:80px 10%;
@@ -178,7 +178,7 @@ transition:0.35s;
 .card:hover{
 transform:translateY(-6px);
 border:1px solid var(--네온);
-box-shadow:0 0 25px rgba(0,247,255,0.15);
+box-shadow:0 0 25px rgba(255,0,60,0.2);
 }
 
 .card h3{
@@ -201,23 +201,23 @@ font-size:14px;
 <body>
 
 <nav>
-<div class="logo">NEON</div>
+<div class="logo">KILLER SERVER</div>
 
 <ul>
 <li><a href="#">홈</a></li>
-<li><a href="#">프로젝트</a></li>
-<li><a href="#">소개</a></li>
+<li><a href="#">서버</a></li>
+<li><a href="#">디스코드</a></li>
 <li><a href="#">문의</a></li>
 </ul>
 </nav>
 
 <section class="hero">
 
-<h1>네온 인터페이스</h1>
+<h1>KillerServer</h1>
 
-<p>현대적인 네온 스타일 웹 인터페이스</p>
+<p>네온 스타일 커뮤니티 & 게임 서버</p>
 
-<button class="btn">시작하기</button>
+<button class="btn">서버 참여</button>
 
 </section>
 
@@ -226,18 +226,18 @@ font-size:14px;
 <div class="grid">
 
 <div class="card">
-<h3>빠른 성능</h3>
-<p>최적화된 레이아웃과 부드러운 애니메이션.</p>
+<h3>게임 커뮤니티</h3>
+<p>마인크래프트, 롤, 발로란트 등 다양한 게임을 함께 즐깁니다.</p>
 </div>
 
 <div class="card">
-<h3>반응형 디자인</h3>
-<p>PC, 태블릿, 모바일에서 모두 작동합니다.</p>
+<h3>자유로운 분위기</h3>
+<p>과한 규칙 없이 편하게 활동할 수 있는 커뮤니티.</p>
 </div>
 
 <div class="card">
-<h3>모던 UI</h3>
-<p>Glass + Neon 스타일 디자인.</p>
+<h3>24시간 활동</h3>
+<p>아침형, 저녁형, 새벽형 유저 모두 환영합니다.</p>
 </div>
 
 </div>
@@ -246,7 +246,7 @@ font-size:14px;
 
 <footer>
 
-© 2026 네온 인터페이스
+© 2026 KillerServer Community
 
 </footer>
 
